@@ -25,4 +25,8 @@
     target: '#sideNav'
   });
 
+  $('.fa').hover(
+    function(){$(this).addClass('fa-spin')},
+    function(){$(this).removeClass('fa-spin')}
+  );
 })(jQuery); // End of use strict

@@ -42,13 +42,19 @@ h2 {
 
 .list-social-icons {
   a {
-    color: $gray-700;
+    color: $primary;
+
     &:hover {
-      color: $primary;
+      color: $s-pink;
+      -webkit-animation: spin 2s infinite linear;
+      -moz-animation: spin 2s infinite linear;
+      -o-animation: spin 2s infinite linear;
+      animation: spin 2s infinite linear;
     }
     .fa-lg {
       font-size: 1.75rem;
     }
+
   }
 }
 
