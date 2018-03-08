@@ -45,10 +45,6 @@ h2 {
 
 .list-social-icons a:hover {
   color: #FFA9F1;
-  -webkit-animation: spin 2s infinite linear;
-  -moz-animation: spin 2s infinite linear;
-  -o-animation: spin 2s infinite linear;
-  animation: spin 2s infinite linear;
 }
 
 .list-social-icons a .fa-lg {
